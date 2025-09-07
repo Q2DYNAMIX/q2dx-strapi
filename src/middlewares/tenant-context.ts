@@ -11,3 +11,5 @@ export default (strapi: any) => {
 };
 // Diese Middleware extrahiert den Tenant basierend auf dem Hostnamen der Anfrage
 // und hängt ihn an den Kontext (ctx.state.tenant) an.
+// Beispiel: Wenn die Anfrage von "api.q2dynamix.com" kommt, wird der Tenant "q2dx" gesetzt.
+// Diese Middleware wird in der Middleware-Konfiguration registriert (config/middlewares.ts).
