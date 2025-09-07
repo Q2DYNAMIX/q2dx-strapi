@@ -4,7 +4,7 @@ on:
     branches: [main]
     paths: ["**", ".github/workflows/cd-strapi.yml"]
 env:
-  IMAGE: ghcr.io/${{ github.repository }}/strapi
+  IMAGE: ghcr.io/q2dynamix/q2dx-strapi/strapi
 jobs:
   build:
     runs-on: ubuntu-latest
